@@ -1,0 +1,92 @@
+/* pages/mine/mine.wxss */
+@import "../../assets/less/base";
+
+page {
+  background-color: #fff;
+}
+
+.mine-container {
+  .margin-grey {
+    height: 20 * @rpx;
+    background-color: #f1f1f1;
+  }
+  .user-info {
+    height: 200 * @rpx;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20 * @rpx;
+    .user-avatar {
+      width: 120 * @rpx;
+      height: 120 * @rpx;
+      border-radius: 240 * @rpx;
+      overflow: hidden;
+      margin-left: 20 * @rpx;
+      margin-right: 20 * @rpx;
+    }
+    .user-name {
+      font-size: 32 * @rpx;
+      color: #000;
+    }
+  }
+  .tools-panel {
+    background-color: #fff;
+    .tool-item {
+      height: 110 * @rpx;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20 * @rpx;
+      border-bottom: 1*@rpx solid #f0f0f0;
+      .tool-content {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .item-icon {
+          color: #f4817c;
+          margin-right: 20 * @rpx;
+        }
+        .item-text {
+          font-size: 28 * @rpx;
+          color: #000000;
+        }
+      }
+      .tool-arrow {
+        font-size: 16 * @rpx;
+        color: #8c8c8c;
+      }
+    }
+  }
+  .service-panel {
+    height: 110 * @rpx;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20 * @rpx;
+    border-bottom: 1*@rpx solid #f0f0f0;
+    background-color: #fff;
+    .service-icon {
+      color: #f4817c;
+      margin-right: 20 * @rpx;
+    }
+    .service-name {
+      font-size: 28 * @rpx;
+      color: #000000;
+    }
+    .service-desc {
+      font-size: 24 * @rpx;
+      color: #808080;
+    }
+  }
+  .login-out {
+    margin-top: 80*@rpx;
+    border-top: 1*@rpx solid #f0f0f0;
+    border-bottom: 1*@rpx solid #f0f0f0;
+    text-align: center;
+    font-size: 32 * @rpx;
+    color: #333333;
+    height: 90 * @rpx;
+    line-height: 90 * @rpx;
+  }
+}

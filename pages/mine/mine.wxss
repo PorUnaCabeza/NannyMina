@@ -1,27 +1,87 @@
 /* pages/mine/mine.wxss */
 page {
+  background-color: #fff;
+}
+.mine-container .margin-grey {
+  height: 20rpx;
   background-color: #f1f1f1;
 }
-.mine-container {
-
+.mine-container .user-info {
+  height: 200rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20rpx;
 }
-.user-info {
-    height: 200rpx;
-    background-color: #fff;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 20rpx;
+.mine-container .user-info .user-avatar {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 240rpx;
+  overflow: hidden;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
 }
-.user-avatar {
-    width: 120rpx;
-    height: 120rpx;
-    border-radius: 240rpx;
-    overflow: hidden;
-    margin-left: 20rpx;
-    margin-right: 20rpx;
+.mine-container .user-info .user-name {
+  font-size: 32rpx;
+  color: #000;
 }
-.user-name {
-    font-size: 32rpx;
-    color: #000;
+.mine-container .tools-panel {
+  background-color: #fff;
+}
+.mine-container .tools-panel .tool-item {
+  height: 110rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+.mine-container .tools-panel .tool-item .tool-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mine-container .tools-panel .tool-item .tool-content .item-icon {
+  color: #f4817c;
+  margin-right: 20rpx;
+}
+.mine-container .tools-panel .tool-item .tool-content .item-text {
+  font-size: 28rpx;
+  color: #000000;
+}
+.mine-container .tools-panel .tool-item .tool-arrow {
+  font-size: 16rpx;
+  color: #8c8c8c;
+}
+.mine-container .service-panel {
+  height: 110rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  background-color: #fff;
+}
+.mine-container .service-panel .service-icon {
+  color: #f4817c;
+  margin-right: 20rpx;
+}
+.mine-container .service-panel .service-name {
+  font-size: 28rpx;
+  color: #000000;
+}
+.mine-container .service-panel .service-desc {
+  font-size: 24rpx;
+  color: #808080;
+}
+.mine-container .login-out {
+  margin-top: 80rpx;
+  border-top: 1rpx solid #f0f0f0;
+  border-bottom: 1rpx solid #f0f0f0;
+  text-align: center;
+  font-size: 32rpx;
+  color: #333333;
+  height: 90rpx;
+  line-height: 90rpx;
 }

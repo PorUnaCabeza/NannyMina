@@ -1,11 +1,45 @@
 <!--pages/mine/mine.wxml-->
 <view class="mine-container">
-    <view class="user-info">
-        <view class="user-avatar">
-            <open-data type="userAvatarUrl"></open-data>
-        </view>
-        <view class="user-name">
-            <open-data type="userNickName"></open-data>
-        </view>
+  <view class="user-info">
+    <view class="user-avatar">
+      <open-data type="userAvatarUrl"></open-data>
     </view>
+    <view class="user-name">
+      <open-data type="userNickName"></open-data>
+    </view>
+  </view>
+  <view class="margin-grey"></view>
+  <view class="tools-panel">
+    <view class="tool-item">
+      <view class="tool-content">
+        <i class="item-icon iconfont icon-wodeyuyuexinxi"></i>
+        <view class="item-text">我的预约信息</view>
+      </view>
+      <i class="tool-arrow iconfont icon-_kaobei"></i>
+    </view>
+    <view class="tool-item">
+      <view class="tool-content">
+        <i class="item-icon iconfont icon-quanbuwenti"></i>
+        <view class="item-text">常见问题</view>
+      </view>
+      <i class="tool-arrow iconfont icon-_kaobei"></i>
+    </view>
+    <view class="tool-item">
+      <view class="tool-content">
+        <i class="item-icon iconfont icon-yijianfankui"></i>
+        <view class="item-text">意见反馈</view>
+      </view>
+      <i class="tool-arrow iconfont icon-_kaobei"></i>
+    </view>
+  </view>
+  <view class="margin-grey"></view>
+  <view class="service-panel">
+    <i class="service-icon iconfont icon-kefu"></i>
+    <view class="service-name">客服</view>
+    <view class="service-desc">（服务时间：9:00-23:00）</view>
+  </view>
+  <view class="margin-grey"></view>
+  <view class="login-out">
+    退出登录
+  </view>
 </view>
