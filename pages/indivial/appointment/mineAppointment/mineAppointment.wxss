@@ -1,0 +1,51 @@
+.apot-list {
+  padding: 0 20rpx;
+}
+.apot-list .apot-item {
+  margin-top: 30rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  overflow: hidden;
+}
+.apot-list .apot-item .user-info .name {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-right: 20rpx;
+}
+.apot-list .apot-item .user-info .tel {
+  font-size: 28rpx;
+  color: #434343;
+}
+.apot-list .apot-item .address {
+  font-size: 28rpx;
+  color: #434343;
+}
+.apot-list .apot-item .operate-line {
+  display: flex;
+  justify-content: flex-end;
+}
+.apot-list .apot-item .operate-line .opt-item i {
+  color: #f4817c;
+  font-size: 28rpx;
+  margin-right: 8rpx;
+}
+.apot-list .apot-item .operate-line .opt-item text {
+  font-size: 28rpx;
+  color: #434343;
+}
+.apot-list .apot-item .operate-line .opt-item:first-child {
+  margin-right: 40rpx;
+}
+.add-apot {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: #f4817c;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 32rpx;
+}

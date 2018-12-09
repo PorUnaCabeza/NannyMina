@@ -1,0 +1,26 @@
+<view class="my-appointment">
+  <view class="apot-list">
+    <view class="apot-item" wx:for="{{list}}">
+      <view class="user-info">
+        <text class="name">{{item.name}}</text>
+        <text class="tel">{{item.tel}}</text>
+      </view>
+      <view class="address">
+        {{item.address}}
+      </view>
+      <view class="operate-line">
+        <view class="opt-item">
+          <i class="iconfont icon-yuanjiaojuxingkaobei"></i>
+          <text>编辑</text>
+        </view>
+        <view class="opt-item">
+          <i class="iconfont icon-yuanjiaojuxing"></i>
+          <text>删除</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="add-apot">
+    新增预约信息
+  </view>
+</view>

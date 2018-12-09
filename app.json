@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/mine/mine",
+    "pages/indivial/appointment/mineAppointment/mineAppointment",
+    "pages/indivial/mine/mine",
     "pages/index/index"
   ],
   "window": {
