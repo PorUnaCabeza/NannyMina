@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/indivial/appointment/addAppointment/addAppointment",
     "pages/indivial/appointment/mineAppointment/mineAppointment",
     "pages/indivial/mine/mine",
     "pages/index/index"

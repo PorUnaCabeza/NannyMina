@@ -1,0 +1,46 @@
+page {
+  background-color: #f1f1f1;
+}
+.add-appointment {
+  background-color: #fff;
+  padding: 0 20rpx;
+}
+.apot-info-item {
+  height: 100rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.apot-info-item .item-name {
+  font-size: 28rpx;
+  color: #000;
+  width: 136rpx;
+}
+.apot-info-item .item-value {
+  font-size: 28rpx;
+}
+.apot-info-item .item-value .input-placeholder {
+  color: #d7d7d7;
+  font-size: 28rpx;
+}
+.picker {
+  font-size: 28rpx;
+}
+.picker-empty {
+  color: #d7d7d7;
+  font-size: 28rpx;
+}
+.confirm {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: #f4817c;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 32rpx;
+}

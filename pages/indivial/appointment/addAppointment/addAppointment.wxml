@@ -1,0 +1,27 @@
+<!--pages/indivial/appointment/addAppointment/addAppointment.wxml-->
+<view class="add-appointment">
+  <view class="apot-info-item">
+    <view class="item-name">预约人：</view>
+    <input class="item-value" placeholder="请输入预约人姓名"/>
+  </view>
+  <view class="apot-info-item">
+    <view class="item-name">手机号码：</view>
+    <input class="item-value" placeholder="请输入手机号码"/>
+  </view>
+  <view class="apot-info-item">
+    <view class="item-name">地区：</view>
+    <picker mode="region" value="{{region}}" bindchange="bindRegionChange">
+      <view wx:if="{{region[0]}}" class="picker">
+        {{region[0]}}，{{region[1]}}，{{region[2]}}
+      </view>
+      <view wx:else class="picker-empty">
+        请选择地区
+      </view>
+    </picker>
+  </view>
+  <view class="apot-info-item">
+    <view class="item-name">地址：</view>
+    <input class="item-value" placeholder="街道门牌信息"/>
+  </view>
+  <view class="confirm">确定</view>
+</view>
