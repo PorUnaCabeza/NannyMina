@@ -1,0 +1,62 @@
+@import "../../../../assets/less/base";
+
+.my-appointment {
+
+}
+
+.apot-list {
+  padding: 0 20* @rpx;
+  .apot-item {
+    margin-top: 30 * @rpx;
+    padding-bottom: 30 * @rpx;
+    border-bottom: 1*@rpx solid #f0f0f0;
+    overflow: hidden;
+    .user-info {
+      .name {
+        font-size: 32 * @rpx;
+        font-weight: bold;
+        margin-right: 20 * @rpx;
+      }
+      .tel {
+        font-size: 28 * @rpx;
+        color: #434343;
+      }
+    }
+    .address {
+      font-size: 28 * @rpx;
+      color: #434343;
+    }
+    .operate-line {
+      display: flex;
+      justify-content: flex-end;
+      .opt-item {
+        i {
+          color: @theme-color;
+          font-size: 28 * @rpx;
+          margin-right: 8 * @rpx;
+        }
+        text {
+          font-size: 28 * @rpx;
+          color: #434343;
+        }
+        &:first-child {
+          margin-right: 40 * @rpx;
+        }
+      }
+    }
+  }
+}
+
+.add-apot {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: @theme-color;
+  height: 90 * @rpx;
+  line-height: 90 * @rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 32 * @rpx;
+}
