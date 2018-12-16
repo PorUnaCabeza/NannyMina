@@ -1,0 +1,106 @@
+page {
+  background-color: #f1f1f1;
+}
+.pink-mask {
+  background-color: #f4817c;
+  height: 200rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.aunt-detail-container {
+  padding: 0 30rpx;
+  position: relative;
+}
+.aunt-detail-container .panel {
+  margin-top: 30rpx;
+  background-color: #ffffff;
+  border-radius: 16rpx;
+  text-align: center;
+}
+.aunt-detail-container .panel .panel-title {
+  font-size: 32rpx;
+  color: #000;
+  padding-top: 28rpx;
+  padding-bottom: 24rpx;
+  font-weight: bold;
+}
+.aunt-detail-container .intro {
+  margin-top: 120rpx;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.aunt-detail-container .intro .head-img-container {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 160rpx;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+.aunt-detail-container .intro .head-img-container .head-image {
+  width: 154rpx;
+  height: 154rpx;
+  border-radius: 154rpx;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+.aunt-detail-container .intro .name {
+  font-size: 32rpx;
+  color: #000000;
+  margin-top: 90rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.aunt-detail-container .intro .star {
+  margin-top: 10rpx;
+}
+.aunt-detail-container .intro .star i {
+  padding-right: 9rpx;
+  color: #eb4429;
+}
+.aunt-detail-container .intro .detail-panel {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20rpx;
+}
+.aunt-detail-container .intro .detail-panel .col-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.aunt-detail-container .intro .detail-panel .col-panel .line-key {
+  color: #808080;
+  font-size: 28rpx;
+}
+.aunt-detail-container .intro .detail-panel .col-panel .line-value {
+  margin-left: 30rpx;
+  color: #000;
+  font-size: 28rpx;
+}
+.aunt-detail-container .skill {
+  padding: 0 30rpx;
+}
+.aunt-detail-container .skill .skill-item {
+  display: flex;
+  justify-content: flex-start;
+}
+.aunt-detail-container .skill .skill-item i {
+  color: #f4817c;
+  font-size: 28rpx;
+  display: inline-block;
+}
+.aunt-detail-container .skill .skill-item .skill-desc {
+  text-align: left;
+  display: inline-block;
+  color: #434343;
+  font-size: 28rpx;
+  line-height: 30rpx;
+  margin-bottom: 26rpx;
+}

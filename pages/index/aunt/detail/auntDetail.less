@@ -1,0 +1,111 @@
+@import "../../../../assets/less/base";
+
+page {
+  background-color: #f1f1f1;
+}
+
+.pink-mask {
+  background-color: @theme-color;
+  height: 200 * @rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.aunt-detail-container {
+  padding: 0 30 * @rpx;
+  position: relative;
+  .panel {
+    margin-top: 30 * @rpx;
+    background-color: #ffffff;
+    border-radius: 16 * @rpx;
+    text-align: center;
+
+    .panel-title {
+      font-size: 32 * @rpx;
+      color: #000;
+      padding-top: 28 * @rpx;
+      padding-bottom: 24 * @rpx;
+      font-weight: bold;
+    }
+  }
+  .intro {
+    margin-top: 120 * @rpx;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    .head-img-container {
+      width: 160 * @rpx;
+      height: 160 * @rpx;
+      border-radius: 160 * @rpx;
+      background-color: #fff;
+      position: absolute;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+      .head-image {
+        width: 154 * @rpx;
+        height: 154 * @rpx;
+        border-radius: 154 * @rpx;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate3d(-50%, -50%, 0);
+      }
+    }
+    .name {
+      font-size: 32 * @rpx;
+      color: #000000;
+      margin-top: 90 * @rpx;
+      text-align: center;
+      font-weight: bold;
+    }
+    .star {
+      margin-top: 10 * @rpx;
+      i {
+        padding-right: 9 * @rpx;
+        color: #eb4429;
+      }
+    }
+    .detail-panel {
+      display: flex;
+      justify-content: space-around;
+      padding-bottom: 20 * @rpx;
+      .col-panel {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .line-key {
+          color: #808080;
+          font-size: 28 * @rpx;
+        }
+        .line-value {
+          margin-left: 30 * @rpx;
+          color: #000;
+          font-size: 28 * @rpx;
+        }
+      }
+    }
+  }
+  .skill {
+    padding: 0 30 * @rpx;
+    .skill-item {
+      display: flex;
+      justify-content: flex-start;
+      i {
+        color: @theme-color;
+        font-size: 28 * @rpx;
+        display: inline-block;
+      }
+      .skill-desc {
+        text-align: left;
+        display: inline-block;
+        color: #434343;
+        font-size: 28 * @rpx;
+        line-height: 30 * @rpx;
+        margin-bottom: 26 * @rpx;
+      }
+    }
+  }
+}

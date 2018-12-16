@@ -1,0 +1,64 @@
+<view class="pink-mask"></view>
+<view class="aunt-detail-container">
+  <view class="intro panel">
+    <view class="head-img-container">
+      <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
+    </view>
+    <view class="name">慧颜</view>
+    <view class="star">
+      <i class="iconfont icon-xingxing"></i>
+      <i class="iconfont icon-xingxing"></i>
+      <i class="iconfont icon-xingxing"></i>
+      <i class="iconfont icon-xingxing"></i>
+      <i class="iconfont icon-xingxing"></i>
+    </view>
+    <view class="detail-panel">
+      <view class="col-panel">
+        <view class="col-line">
+          <text class="line-key" space="emsp">年 龄:</text>
+          <text class="line-value" space="emsp">40岁</text>
+        </view>
+        <view class="col-line">
+          <text class="line-key" space="emsp">从 业:</text>
+          <text class="line-value" space="emsp">10年</text>
+        </view>
+        <view class="col-line">
+          <text class="line-key" space="emsp">好评率:</text>
+          <text class="line-value" space="emsp">95%</text>
+        </view>
+      </view>
+      <view class="col-panel">
+        <view class="col-line">
+          <text class="line-key" space="emsp">学 历:</text>
+          <text class="line-value" space="emsp">初中</text>
+        </view>
+        <view class="col-line">
+          <text class="line-key" space="emsp">籍 贯:</text>
+          <text class="line-value" space="emsp">安徽滁州</text>
+        </view>
+        <view class="col-line">
+          <text class="line-key" space="emsp">普通话:</text>
+          <text class="line-value" space="emsp">一般</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="skill panel">
+    <view class="panel-title">
+      证书与技能
+    </view>
+    <view class="skill-item">
+      <i class="iconfont icon-jiankangzheng"></i>
+      <view class="skill-desc">健康证</view>
+    </view>
+    <view class="skill-item">
+      <i class="iconfont icon-jineng"></i>
+      <view class="skill-desc">做饭，做家务，辅助带孩子，喜欢和老人和孩子
+        交流。
+      </view>
+    </view>
+  </view>
+  <view class="work-flow panel">
+    <view class="panel-title">工作履历</view>
+  </view>
+</view>

@@ -1,11 +1,11 @@
 {
   "pages": [
+    "pages/index/aunt/detail/auntDetail",
     "pages/indivial/suggestion/suggestion",
     "pages/indivial/question/question",
     "pages/indivial/appointment/addAppointment/addAppointment",
     "pages/indivial/appointment/mineAppointment/mineAppointment",
-    "pages/indivial/mine/mine",
-    "pages/index/index"
+    "pages/indivial/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "light",
