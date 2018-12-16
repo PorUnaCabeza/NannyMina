@@ -1,0 +1,19 @@
+<view class="suggestion-container">
+  <view class="label">
+    问题和描述
+  </view>
+  <textarea class="text-area"
+            value="{{question}}"
+            bindinput="textAreaEvent"
+            placeholder="有什么不爽统统告诉我们吧~">
+  </textarea>
+  <view class="label">
+    联系方式
+  </view>
+  <input class="sugt-input"
+         bindinput="inputEvent"
+         placeholder="请输入手机号码"/>
+  <view bindtap="confirm" class="confirm {{(!!question && !! phone) ? 'active' : ''}}">
+    提交
+  </view>
+</view>

@@ -1,0 +1,51 @@
+@import "../../../assets/less/base";
+
+page {
+  background-color: #f1f1f1;
+}
+
+.suggestion-container {
+  .label {
+    height: 60 * @rpx;
+    padding: 0 20 * @rpx;
+    font-size: 28 * @rpx;
+    line-height: 60 * @rpx;
+  }
+  .text-area {
+    background-color: #fff;
+    width: 100%;
+    padding: 20 * @rpx;
+    color: #808080;
+    font-size: 28 * @rpx;
+    .textarea-placeholder {
+      color: #d7d7d7;
+      font-size: 24 * @rpx;
+    }
+  }
+  .sugt-input {
+    background-color: #fff;
+    font-size: 28 * @rpx;
+    padding: 20 * @rpx;
+    color: #808080;
+    .input-placeholder {
+      color: #d7d7d7;
+      font-size: 24 * @rpx;
+    }
+  }
+  .confirm {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    background-color: @theme-color;
+    height: 90 * @rpx;
+    line-height: 90 * @rpx;
+    text-align: center;
+    color: #f7adaa;
+    font-size: 32 * @rpx;
+    &.active {
+      color: #fff;
+    }
+  }
+}
