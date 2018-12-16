@@ -1,0 +1,101 @@
+<!--pages/indivial/question/question.wxml-->
+<view class="question-container">
+  <view class="qa-item">
+    <view class="q">
+      Q1：什么时候可以对阿姨进行评价？评价后可以修改吗？
+    </view>
+    <view class="a">
+      ·点击服务完成后可以对阿姨进行评价，没有时间限制
+    </view>
+    <view class="a">
+      ·一旦点评就不能做修改，评价不可删除撤销，清知悉
+    </view>
+  </view>
+  <view class="qa-item">
+    <view class="q">
+      Q2：为什么提示预约次数过多，无法预约？
+    </view>
+    <view class="a">
+      ·在24小时内，同一手机号在同一设备上最多可以成功提交7次订单
+    </view>
+  </view>
+  <view class="qa-item">
+    <view class="q">
+      Q3：什么时候可以对阿姨进行评价？评价后可以修改吗？
+    </view>
+    <view class="a">
+      ·点击服务完成后可以对阿姨进行评价，没有时间限制
+    </view>
+    <view class="a">
+      ·一旦点评就不能做修改，评价不可删除撤销，清知悉
+    </view>
+  </view>
+  <view class="qa-item">
+    <view class="q">
+      Q4：为什么提示预约次数过多，无法预约？
+    </view>
+    <view class="a">
+      ·点击服务完成后可以对阿姨进行评价，没有时间限制
+    </view>
+    <view class="a">
+      ·一旦点评就不能做修改，评价不可删除撤销，清知悉
+    </view>
+  </view>
+  <view class="qa-item">
+    <view class="q">
+      Q5：什么时候可以对阿姨进行评价？评价后可以修改吗？
+    </view>
+    <view class="a">
+      ·点击服务完成后可以对阿姨进行评价，没有时间限制
+    </view>
+    <view class="a">
+      ·一旦点评就不能做修改，评价不可删除撤销，清知悉
+    </view>
+  </view>
+  <view class="qa-item">
+    <view class="q">
+      Q6：为什么提示预约次数过多，无法预约？
+    </view>
+    <view class="a">
+      ·在24小时内，同一手机号在同一设备上最多可以成功提交7次订单
+    </view>
+  </view>
+  <view class="qa-item">
+    <view class="q">
+      Q7：什么时候可以对阿姨进行评价？评价后可以修改吗？
+    </view>
+    <view class="a">
+      ·点击服务完成后可以对阿姨进行评价，没有时间限制
+    </view>
+    <view class="a">
+      ·一旦点评就不能做修改，评价不可删除撤销，清知悉
+    </view>
+  </view>
+  <view class="qa-item">
+    <view class="q">
+      Q8：为什么提示预约次数过多，无法预约？
+    </view>
+    <view class="a">
+      ·在24小时内，同一手机号在同一设备上最多可以成功提交7次订单
+    </view>
+  </view>
+  <view class="qa-item">
+    <view class="q">
+      Q9：什么时候可以对阿姨进行评价？评价后可以修改吗？
+    </view>
+    <view class="a">
+      ·点击服务完成后可以对阿姨进行评价，没有时间限制
+    </view>
+    <view class="a">
+      ·一旦点评就不能做修改，评价不可删除撤销，清知悉
+    </view>
+  </view>
+  <view class="qa-item">
+    <view class="q">
+      Q10：为什么提示预约次数过多，无法预约？
+    </view>
+    <view class="a">
+      ·在24小时内，同一手机号在同一设备上最多可以成功提交7次订单
+    </view>
+  </view>
+</view>

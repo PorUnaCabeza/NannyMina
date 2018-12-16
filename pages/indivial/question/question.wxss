@@ -1,0 +1,12 @@
+.qa-item {
+  padding: 0 15rpx;
+}
+.qa-item .q {
+  font-size: 28rpx;
+  color: #000;
+  margin-top: 15rpx;
+}
+.qa-item .a {
+  font-size: 24rpx;
+  color: #808080;
+}
