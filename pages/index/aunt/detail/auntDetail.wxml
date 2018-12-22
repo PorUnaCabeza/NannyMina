@@ -60,5 +60,55 @@
   </view>
   <view class="work-flow panel">
     <view class="panel-title">工作履历</view>
+    <view class="work-list">
+      <view class="work-item">
+        <view class="wrap">
+          <view class="line"></view>
+          <view class="circle-container">
+            <view class="c1">
+            </view>
+          </view>
+        </view>
+        <view class="item-content">
+          <view class="time">
+            2013年1月－2014年3月
+          </view>
+          <view class="location">高尔夫公寓</view>
+          <view class="content">全职带4岁和2岁的宝宝，做饭，做家务，客户家面积200平，4口人</view>
+        </view>
+      </view>
+      <view class="work-item">
+        <view class="wrap">
+          <view class="line"></view>
+          <view class="circle-container">
+            <view class="c1">
+            </view>
+          </view>
+        </view>
+        <view class="item-content">
+          <view class="time">
+            2013年1月－2014年3月
+          </view>
+          <view class="location">高尔夫公寓</view>
+          <view class="content">全职带4岁和2岁的宝宝，做饭，做家务，客户家面积200平，4口人</view>
+        </view>
+      </view>
+      <view class="work-item">
+        <view class="wrap">
+          <view class="line"></view>
+          <view class="circle-container">
+            <view class="c1">
+            </view>
+          </view>
+        </view>
+        <view class="item-content">
+          <view class="time">
+            2013年1月－2014年3月
+          </view>
+          <view class="location">高尔夫公寓</view>
+          <view class="content">全职带4岁和2岁的宝宝，做饭，做家务，客户家面积200平，4口人</view>
+        </view>
+      </view>
+    </view>
   </view>
 </view>

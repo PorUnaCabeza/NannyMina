@@ -95,6 +95,7 @@ page {
   color: #f4817c;
   font-size: 28rpx;
   display: inline-block;
+  margin-right: 16rpx;
 }
 .aunt-detail-container .skill .skill-item .skill-desc {
   text-align: left;
@@ -103,4 +104,73 @@ page {
   font-size: 28rpx;
   line-height: 30rpx;
   margin-bottom: 26rpx;
+}
+.aunt-detail-container .work-flow .work-list {
+  text-align: left;
+  padding-right: 30rpx;
+}
+.aunt-detail-container .work-flow .work-list .work-item {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+}
+.aunt-detail-container .work-flow .work-list .work-item .line {
+  position: absolute;
+  width: 3rpx;
+  background-color: #f4817c;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  transform: translate3d(-50%, 0, 0);
+  z-index: 9;
+}
+.aunt-detail-container .work-flow .work-list .work-item:first-child .line {
+  top: 25rpx;
+}
+.aunt-detail-container .work-flow .work-list .work-item:last-child .line {
+  bottom: inherit;
+  height: 20rpx;
+}
+.aunt-detail-container .work-flow .work-list .work-item .wrap {
+  width: 70rpx;
+  position: relative;
+}
+.aunt-detail-container .work-flow .work-list .work-item .wrap .circle-container {
+  position: absolute;
+  width: 25rpx;
+  height: 25rpx;
+  border-radius: 25rpx;
+  background-color: #fde6e5;
+  left: 50%;
+  top: 8rpx;
+  transform: translate3d(-50%, 0, 0);
+}
+.aunt-detail-container .work-flow .work-list .work-item .wrap .circle-container .c1 {
+  position: absolute;
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 10rpx;
+  background-color: #f4817c;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+.aunt-detail-container .work-flow .work-list .work-item .item-content {
+  margin-bottom: 30rpx;
+}
+.aunt-detail-container .work-flow .work-list .work-item .item-content .time {
+  font-size: 24rpx;
+  color: #808080;
+  line-height: 40rpx;
+  height: 40rpx;
+  position: relative;
+}
+.aunt-detail-container .work-flow .work-list .work-item .item-content .location {
+  font-size: 28rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.aunt-detail-container .work-flow .work-list .work-item .item-content .content {
+  font-size: 28rpx;
+  color: #434343;
 }
