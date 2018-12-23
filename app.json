@@ -7,7 +7,9 @@
     "pages/indivial/question/question",
     "pages/indivial/appointment/addAppointment/addAppointment",
     "pages/indivial/appointment/mineAppointment/mineAppointment",
-    "pages/indivial/mine/mine"
+    "pages/indivial/mine/mine",
+    "pages/reservation/list/reservationList",
+    "pages/reservation/detail/reservationDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
