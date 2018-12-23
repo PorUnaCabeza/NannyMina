@@ -156,6 +156,7 @@ page {
   transform: translate3d(-50%, -50%, 0);
 }
 .aunt-detail-container .work-flow .work-list .work-item .item-content {
+  width: 600rpx;
   margin-bottom: 30rpx;
 }
 .aunt-detail-container .work-flow .work-list .work-item .item-content .time {
@@ -173,4 +174,76 @@ page {
 .aunt-detail-container .work-flow .work-list .work-item .item-content .content {
   font-size: 28rpx;
   color: #434343;
+}
+.aunt-detail-container .evaluation {
+  padding: 0 30rpx;
+  margin-bottom: 120rpx;
+}
+.aunt-detail-container .evaluation .evaluation-list .evaluation-item {
+  padding-bottom: 28rpx;
+}
+.aunt-detail-container .evaluation .evaluation-list .evaluation-item .user-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aunt-detail-container .evaluation .evaluation-list .evaluation-item .user-line .user-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.aunt-detail-container .evaluation .evaluation-list .evaluation-item .user-line .user-info .user-avatar {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 60rpx;
+}
+.aunt-detail-container .evaluation .evaluation-list .evaluation-item .user-line .user-info .user-name {
+  margin-left: 18rpx;
+  font-size: 28rpx;
+  color: #000000;
+}
+.aunt-detail-container .evaluation .evaluation-list .evaluation-item .user-line .time {
+  font-size: 24rpx;
+  color: #808080;
+}
+.aunt-detail-container .evaluation .evaluation-list .evaluation-item .content {
+  margin-top: 10rpx;
+  text-align: left;
+  font-size: 28rpx;
+  color: #808080;
+}
+.aunt-detail-container .footer {
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 90rpx;
+  background-color: #fff;
+}
+.aunt-detail-container .footer .price {
+  display: flex;
+  justify-content: flex-start;
+}
+.aunt-detail-container .footer .price .text {
+  margin-left: 20rpx;
+  font-size: 24rpx;
+  color: #808080;
+}
+.aunt-detail-container .footer .price .number {
+  margin-left: 10rpx;
+  font-size: 32rpx;
+  color: #eb4429;
+}
+.aunt-detail-container .footer .button {
+  width: 318rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  background-color: #f4817c;
+  color: #fff;
+  font-size: 32rpx;
+  text-align: center;
 }

@@ -87,10 +87,10 @@
         </view>
         <view class="item-content">
           <view class="time">
-            2013年1月－2014年3月
+            2012年3月－2013年1月
           </view>
-          <view class="location">高尔夫公寓</view>
-          <view class="content">全职带4岁和2岁的宝宝，做饭，做家务，客户家面积200平，4口人</view>
+          <view class="location">观湖国际</view>
+          <view class="content">做饭，做家务，辅助带5个月的宝宝，客户家面积200平，3口人。</view>
         </view>
       </view>
       <view class="work-item">
@@ -103,12 +103,66 @@
         </view>
         <view class="item-content">
           <view class="time">
-            2013年1月－2014年3月
+            2011年1月－2011年12月
           </view>
-          <view class="location">高尔夫公寓</view>
-          <view class="content">全职带4岁和2岁的宝宝，做饭，做家务，客户家面积200平，4口人</view>
+          <view class="location">棕榈泉</view>
+          <view class="content">做饭，做家务，辅助带1岁8个月的宝宝，客户家面积300平，5口人。</view>
         </view>
       </view>
     </view>
+  </view>
+  <view class="evaluation panel">
+    <view class="panel-title">服务评价</view>
+    <view class="evaluation-list">
+      <view class="evaluation-item">
+        <view class="user-line">
+          <view class="user-info">
+            <image class="user-avatar" src="https://unsplash.it/200/200/?random" mode="aspectFit"></image>
+            <view class="user-name">王小二</view>
+          </view>
+          <view class="time">
+            2018.03.04 12:23:21
+          </view>
+        </view>
+        <view class="content">
+          阿姨挺好的，全能，照顾的很放心，很专业。
+        </view>
+      </view>
+      <view class="evaluation-item">
+        <view class="user-line">
+          <view class="user-info">
+            <image class="user-avatar" src="https://unsplash.it/200/200/?random" mode="aspectFit"></image>
+            <view class="user-name">小青菜炒蘑菇</view>
+          </view>
+          <view class="time">
+            2018.03.04 12:23:21
+          </view>
+        </view>
+        <view class="content">
+          阿姨挺好的，全能，照顾的很放心，很专业，阿姨挺好的，全能，照顾的很放心，很专业。
+        </view>
+      </view>
+      <view class="evaluation-item">
+        <view class="user-line">
+          <view class="user-info">
+            <image class="user-avatar" src="https://unsplash.it/200/200/?random" mode="aspectFit"></image>
+            <view class="user-name">西红柿炒鸡蛋</view>
+          </view>
+          <view class="time">
+            2018.03.04 12:23:21
+          </view>
+        </view>
+        <view class="content">
+          阿姨挺好的，全能，照顾的很放心，很专业，阿姨挺好的，全能，照顾的很放心，很专业。
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="price">
+      <view class="text">参考价</view>
+      <view class="number">¥10000/月</view>
+    </view>
+    <view class="button">立即预约</view>
   </view>
 </view>

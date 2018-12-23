@@ -21,7 +21,6 @@ page {
     background-color: #ffffff;
     border-radius: 16 * @rpx;
     text-align: center;
-
     .panel-title {
       font-size: 32 * @rpx;
       color: #000;
@@ -163,6 +162,7 @@ page {
           }
         }
         .item-content {
+          width: 600 * @rpx;
           margin-bottom: 30 * @rpx;
           .time {
             font-size: 24 * @rpx;
@@ -182,6 +182,80 @@ page {
           }
         }
       }
+    }
+  }
+  .evaluation {
+    padding: 0 30 * @rpx;
+    margin-bottom: 120 * @rpx;
+    .evaluation-list {
+      .evaluation-item {
+        padding-bottom: 28 * @rpx;
+        .user-line {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .user-info {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .user-avatar {
+              width: 60 * @rpx;
+              height: 60 * @rpx;
+              border-radius: 60 * @rpx;
+            }
+            .user-name {
+              margin-left: 18 * @rpx;
+              font-size: 28 * @rpx;
+              color: #000000;
+            }
+          }
+          .time {
+            font-size: 24 * @rpx;
+            color: #808080;
+          }
+        }
+        .content {
+          margin-top: 10 * @rpx;
+          text-align: left;
+          font-size: 28 * @rpx;
+          color: #808080;
+        }
+      }
+    }
+  }
+  .footer {
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 90 * @rpx;
+    background-color: #fff;
+    .price {
+      display: flex;
+      justify-content: flex-start;
+      .text {
+        margin-left: 20 * @rpx;
+        font-size: 24 * @rpx;
+        color: #808080;
+      }
+      .number {
+        margin-left: 10 * @rpx;
+        font-size: 32 * @rpx;
+        color: #eb4429;
+      }
+    }
+    .button {
+      width: 318 * @rpx;
+      height: 90 * @rpx;
+      line-height: 90 * @rpx;
+      background-color: @theme-color;
+      color: #fff;
+      font-size: 32 * @rpx;
+      text-align: center;
     }
   }
 }
