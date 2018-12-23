@@ -8,7 +8,8 @@ Page({
     region: [],
     date: '',
     time: '',
-    customItem: '全部'
+    customItem: '全部',
+    showModal: false
   },
   bindRegionChange: function (e) {
     this.setData({
@@ -26,6 +27,16 @@ Page({
     this.setData({
       time: e.detail.value
     })
+  },
+  modalConfirm () {
+    this.setData({
+      showModal: false
+    });
+  },
+  showModal () {
+    this.setData({
+      showModal: true
+    });
   },
 
   /**

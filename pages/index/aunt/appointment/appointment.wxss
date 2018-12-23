@@ -94,6 +94,12 @@ page {
   color: #d7d7d7;
   font-size: 28rpx;
 }
+.select-user {
+  color: #f4817c;
+  font-size: 28rpx;
+  position: absolute;
+  right: 20rpx;
+}
 .remark-panel {
   margin-top: 20rpx;
   background-color: #fff;

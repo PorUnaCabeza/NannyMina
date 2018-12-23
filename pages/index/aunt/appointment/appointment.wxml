@@ -38,6 +38,7 @@
     <view class="apot-info-item">
       <view class="item-name">预约人：</view>
       <input class="item-value" placeholder="请输入预约人姓名"/>
+      <view class="select-user" bindtap="showModal">选择已有</view>
     </view>
     <view class="apot-info-item">
       <view class="item-name">手机号码：</view>
@@ -77,4 +78,5 @@
   <view class="apply">
     提交预约
   </view>
+  <modal wx:if="{{showModal}}" bindconfirm="modalConfirm"></modal>
 </view>
