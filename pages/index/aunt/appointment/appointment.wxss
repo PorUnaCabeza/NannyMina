@@ -1,0 +1,138 @@
+page {
+  background-color: #f1f1f1;
+}
+.aunt-info {
+  height: 180rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.aunt-info .head-image {
+  margin-left: 20rpx;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 140rpx;
+}
+.aunt-info .detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16rpx;
+}
+.aunt-info .detail .name-line {
+  display: flex;
+  align-items: flex-end;
+}
+.aunt-info .detail .name-line .name {
+  font-size: 32rpx;
+  color: #000000;
+  font-weight: bold;
+}
+.aunt-info .detail .name-line .type {
+  margin-left: 10rpx;
+  font-size: 28rpx;
+  color: #434343;
+}
+.aunt-info .detail .price {
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  color: #eb4429;
+}
+.service-time {
+  margin-top: 20rpx;
+  height: 90rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20rpx;
+}
+.service-time .title {
+  font-size: 28rpx;
+  color: #000000;
+  margin-right: 30rpx;
+}
+.service-time .selector {
+  font-size: 28rpx;
+  color: #808080;
+}
+.service-time .selector.time-select {
+  margin-left: 20rpx;
+}
+.apot-input-panel {
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding: 0 20rpx 20rpx 40rpx;
+}
+.apot-input-panel .apot-info-item {
+  height: 100rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.apot-input-panel .apot-info-item .item-name {
+  font-size: 28rpx;
+  color: #000;
+  width: 136rpx;
+}
+.apot-input-panel .apot-info-item .item-value {
+  font-size: 28rpx;
+}
+.apot-input-panel .apot-info-item .item-value .input-placeholder {
+  color: #d7d7d7;
+  font-size: 28rpx;
+}
+.apot-input-panel .apot-info-item:last-child {
+  border: none;
+}
+.apot-input-panel .picker {
+  font-size: 28rpx;
+}
+.apot-input-panel .picker-empty {
+  color: #d7d7d7;
+  font-size: 28rpx;
+}
+.remark-panel {
+  margin-top: 20rpx;
+  background-color: #fff;
+  display: flex;
+  padding-top: 30rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.remark-panel .title {
+  width: 90rpx;
+  font-size: 28rpx;
+  color: #000000;
+}
+.remark-panel .remark-text-area {
+  margin-top: 8rpx;
+  font-size: 28rpx;
+  color: #808080;
+}
+.remark-panel .remark-text-area .textarea-placeholder {
+  color: #d7d7d7;
+}
+.tip {
+  margin-top: 10rpx;
+  padding-left: 20rpx;
+  font-size: 24rpx;
+  color: #808080;
+  line-height: 36rpx;
+  margin-bottom: 100rpx;
+}
+.apply {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: #f4817c;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 32rpx;
+}

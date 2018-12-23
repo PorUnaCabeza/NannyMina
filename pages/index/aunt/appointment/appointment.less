@@ -1,0 +1,146 @@
+@import "../../../../assets/less/base";
+
+page {
+  background-color: #f1f1f1;
+}
+
+.aunt-info {
+  height: 180 * @rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .head-image {
+    margin-left: 20 * @rpx;
+    width: 140 * @rpx;
+    height: 140 * @rpx;
+    border-radius: 140 * @rpx;
+  }
+  .detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16 * @rpx;
+    .name-line {
+      display: flex;
+      align-items: flex-end;
+      .name {
+        font-size: 32 * @rpx;
+        color: #000000;
+        font-weight: bold;
+      }
+      .type {
+        margin-left: 10 * @rpx;
+        font-size: 28 * @rpx;
+        color: #434343;
+      }
+    }
+    .price {
+      margin-top: 20 * @rpx;
+      font-size: 28 * @rpx;
+      color: #eb4429;
+    }
+  }
+}
+
+.service-time {
+  margin-top: 20 * @rpx;
+  height: 90 * @rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20 * @rpx;
+  .title {
+    font-size: 28 * @rpx;
+    color: #000000;
+    margin-right: 30 * @rpx;
+  }
+  .selector {
+    font-size: 28 * @rpx;
+    color: #808080;
+    &.time-select {
+      margin-left: 20 * @rpx;
+    }
+  }
+}
+
+.apot-input-panel {
+  margin-top: 20 * @rpx;
+  background-color: #fff;
+  padding: 0 20 * @rpx 20 * @rpx 40 * @rpx;
+  .apot-info-item {
+    height: 100 * @rpx;
+    border-bottom: 1 * @rpx solid #f0f0f0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .item-name {
+      font-size: 28 * @rpx;
+      color: #000;
+      width: 136 * @rpx;
+    }
+    .item-value {
+      font-size: 28 * @rpx;
+      .input-placeholder {
+        color: #d7d7d7;
+        font-size: 28 * @rpx;
+      }
+    }
+    &:last-child {
+      border: none;
+    }
+  }
+  .picker {
+    font-size: 28 * @rpx;
+  }
+  .picker-empty {
+    color: #d7d7d7;
+    font-size: 28 * @rpx;
+  }
+}
+
+.remark-panel {
+  margin-top: 20 * @rpx;
+  background-color: #fff;
+  display: flex;
+  padding-top: 30 * @rpx;
+  padding-left: 20 * @rpx;
+  padding-right: 20 * @rpx;
+  .title {
+    width: 90 * @rpx;
+    font-size: 28 * @rpx;
+    color: #000000;
+  }
+  .remark-text-area {
+    margin-top: 8 * @rpx;
+    font-size: 28 * @rpx;
+    color: #808080;
+    .textarea-placeholder {
+      color: #d7d7d7;
+    }
+  }
+}
+
+.tip {
+  margin-top: 10 * @rpx;
+  padding-left: 20 * @rpx;
+  font-size: 24 * @rpx;
+  color: #808080;
+  line-height: 36 * @rpx;
+  margin-bottom: 100 * @rpx;
+}
+
+.apply {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: @theme-color;
+  height: 90 * @rpx;
+  line-height: 90 * @rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 32 * @rpx;
+}

@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/index/aunt/appointment/appointment",
+    "pages/index/aunt/list/auntList",
     "pages/index/aunt/detail/auntDetail",
     "pages/indivial/suggestion/suggestion",
     "pages/indivial/question/question",

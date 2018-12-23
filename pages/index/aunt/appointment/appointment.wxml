@@ -1,0 +1,80 @@
+<view class="apot-container">
+  <view class="aunt-info">
+    <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
+    <view class="detail">
+      <view class="name-line">
+        <view class="name">慧颜</view>
+        <view class="type">月嫂</view>
+      </view>
+      <view class="price">¥10000/月</view>
+    </view>
+  </view>
+  <view class="service-time">
+    <view class="title">服务时间:</view>
+    <view class="date-select selector">
+      <picker
+          mode="date"
+          value="{{date}}"
+          start="2015-09-01"
+          end="2020-09-01"
+          bindchange="bindDateChange">
+        <view wx:if="{{!!date}}" class="picker">{{date}}</view>
+        <view wx:else>选择日期</view>
+      </picker>
+    </view>
+    <view class="time-select selector">
+      <picker
+          mode="time"
+          value="{{time}}"
+          start="09:01"
+          end="21:01"
+          bindchange="bindTimeChange">
+        <view wx:if="{{!!time}}" class="picker">{{time}}</view>
+        <view wx:else>选择时间</view>
+      </picker>
+    </view>
+  </view>
+  <view class="apot-input-panel">
+    <view class="apot-info-item">
+      <view class="item-name">预约人：</view>
+      <input class="item-value" placeholder="请输入预约人姓名"/>
+    </view>
+    <view class="apot-info-item">
+      <view class="item-name">手机号码：</view>
+      <input class="item-value" placeholder="请输入手机号码"/>
+    </view>
+    <view class="apot-info-item">
+      <view class="item-name">地区：</view>
+      <picker mode="region" value="{{region}}" bindchange="bindRegionChange">
+        <view wx:if="{{region[0]}}" class="picker">
+          {{region[0]}}，{{region[1]}}，{{region[2]}}
+        </view>
+        <view wx:else class="picker-empty">
+          请选择地区
+        </view>
+      </picker>
+    </view>
+    <view class="apot-info-item">
+      <view class="item-name">地址：</view>
+      <input class="item-value" placeholder="街道门牌信息"/>
+    </view>
+  </view>
+  <view class="remark-panel">
+    <view class="title">备注:</view>
+    <textarea class="remark-text-area"
+              value="{{question}}"
+              maxlength="200"
+              bindinput="textAreaEvent"
+              placeholder="200字内">
+  </textarea>
+  </view>
+  <view class="tip">
+    <view>温馨提示：</view>
+    <view>
+      请您确认预约时间与地址，仔细核对手机号并保持电话畅通
+    </view>
+  </view>
+  <view class="apply">
+    提交预约
+  </view>
+</view>

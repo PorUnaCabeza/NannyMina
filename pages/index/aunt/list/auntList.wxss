@@ -1,0 +1,85 @@
+page {
+  background-color: #ffffff;
+}
+.tab-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80rpx;
+  overflow: hidden;
+  border-bottom: 1rpx solid #dfdfdf;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.tab-bar .bar-item {
+  height: 80rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab-bar .bar-item .item-text {
+  color: #434343;
+  font-size: 28rpx;
+  height: 76rpx;
+  line-height: 76rpx;
+}
+.tab-bar .bar-item .bottom-line {
+  display: none;
+  width: 30rpx;
+  height: 5rpx;
+  background-color: #f4817c;
+}
+.tab-bar .bar-item.active .item-text {
+  font-weight: bold;
+  color: #f4817c;
+}
+.tab-bar .bar-item.active .bottom-line {
+  display: block;
+}
+.aunt-list {
+  margin-top: 80rpx;
+}
+.aunt-list .aunt-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 60rpx;
+}
+.aunt-list .aunt-item .head-image {
+  margin-left: 20rpx;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 140rpx;
+}
+.aunt-list .aunt-item .aunt-detail {
+  width: 420rpx;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+}
+.aunt-list .aunt-item .aunt-detail .name-row .name {
+  font-size: 32rpx;
+  color: #000000;
+}
+.aunt-list .aunt-item .aunt-detail .age-row {
+  font-size: 28rpx;
+  color: #808080;
+  display: flex;
+  margin-top: 8rpx;
+}
+.aunt-list .aunt-item .aunt-detail .desc {
+  margin-top: 8rpx;
+  font-size: 28rpx;
+  color: #808080;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.aunt-list .aunt-item .price {
+  width: 170rpx;
+  box-sizing: border-box;
+  padding-left: 10rpx;
+  font-size: 28rpx;
+  color: #eb4429;
+}

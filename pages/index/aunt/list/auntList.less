@@ -1,0 +1,93 @@
+@import "../../../../assets/less/base";
+
+page {
+  background-color: #ffffff;
+}
+
+.tab-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80 * @rpx;
+  overflow: hidden;
+  border-bottom: 1 * @rpx solid #dfdfdf;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  .bar-item {
+    height: 80 * @rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .item-text {
+      color: #434343;
+      font-size: 28 * @rpx;
+      height: 76 * @rpx;
+      line-height: 76 * @rpx;
+    }
+    .bottom-line {
+      display: none;
+      width: 30 * @rpx;
+      height: 5 * @rpx;
+      background-color: @theme-color;
+    }
+    &.active {
+      .item-text {
+        font-weight: bold;
+        color: @theme-color;
+      }
+      .bottom-line {
+        display: block;
+      }
+    }
+  }
+}
+
+.aunt-list {
+  margin-top: 80 * @rpx;
+  .aunt-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 60 * @rpx;
+    .head-image {
+      margin-left: 20  * @rpx;
+      width: 140 * @rpx;
+      height: 140 * @rpx;
+      border-radius: 140 * @rpx;
+    }
+    .aunt-detail {
+      width: 420 * @rpx;
+      box-sizing: border-box;
+      padding-left: 20 * @rpx;
+      .name-row {
+        .name {
+          font-size: 32 * @rpx;
+          color: #000000;
+        }
+      }
+      .age-row {
+        font-size: 28 * @rpx;
+        color: #808080;
+        display: flex;
+        margin-top: 8 * @rpx;
+      }
+      .desc {
+        margin-top: 8 * @rpx;
+        font-size: 28 * @rpx;
+        color: #808080;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    .price {
+      width: 170 * @rpx;
+      box-sizing: border-box;
+      padding-left: 10 * @rpx;
+      font-size: 28 * @rpx;
+      color: #eb4429;
+    }
+  }
+}
