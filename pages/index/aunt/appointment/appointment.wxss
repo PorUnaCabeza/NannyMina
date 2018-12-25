@@ -63,7 +63,7 @@ page {
 .apot-input-panel {
   margin-top: 20rpx;
   background-color: #fff;
-  padding: 0 20rpx 20rpx 40rpx;
+  padding: 0 20rpx 20rpx 20rpx;
 }
 .apot-input-panel .apot-info-item {
   height: 100rpx;
