@@ -1,0 +1,79 @@
+@import "../../../assets/less/base";
+
+page {
+  background-color: #f1f1f1;
+}
+
+.reservation-detail {
+  margin: 115 * @rpx 30 * @rpx 120 * @rpx 30 * @rpx;
+  background-color: #fff;
+  border-radius: 4 * @rpx;
+  box-shadow: 2 * @rpx 2 * @rpx 1 * @rpx rgba(158, 158, 158, 0.35);
+}
+
+.panel {
+  padding: 30 * @rpx 24 * @rpx;
+  border-bottom: 1 * @rpx solid #f0f0f0;
+  .line-info {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20 * @rpx;
+    .key {
+      font-size: 28 * @rpx;
+      color: #808080;
+      width: 4.5 * 28 * @rpx;
+      display: flex;
+      justify-content: space-between;
+    }
+    .value {
+      margin-left: 30 * @rpx;
+      font-size: 28 * @rpx;
+      color: #000000;
+    }
+  }
+}
+
+.aunt-info {
+  padding-top: 100 * @rpx;
+  position: relative;
+  .head-image {
+    width: 160 * @rpx;
+    height: 160 * @rpx;
+    border-radius: 160 * @rpx;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate3d(-50%, -50%, 0);
+    box-shadow: 2 * @rpx 2 * @rpx 1 * @rpx rgba(158, 158, 158, 0.35);
+  }
+}
+
+.apot-order-info {
+  padding-bottom: 160 * @rpx;
+}
+
+.button-panel {
+  bottom: 0;
+  position: fixed;
+  height: 90 * @rpx;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 32 * @rpx;
+  line-height: 90 * @rpx;
+  .confirm {
+    background-color: @theme-color;
+    color: #fff;
+  }
+  .done {
+    background-color: #fff;
+    color: @theme-color;
+    display: flex;
+    .button {
+      flex: 1;
+      &:last-child {
+        border-left: 1 * @rpx solid #f0f0f0;
+      }
+    }
+  }
+}

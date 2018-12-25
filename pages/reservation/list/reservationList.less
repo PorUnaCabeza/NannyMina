@@ -2,10 +2,13 @@
 
 .reservation-list {
   .reservation-item {
-    display: flex;
-    align-items: center;
     margin-top: 20 * @rpx;
-    justify-content: flex-start;
+    border-bottom: 1 * @rpx solid #f0f0f0;
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
     .head-image {
       width: 140 * @rpx;
       height: 140 * @rpx;
@@ -13,10 +16,12 @@
       margin-left: 20 * @rpx;
     }
     .right-content {
+      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
       margin-left: 20 * @rpx;
+      width: 570 * @rpx;
       .name-line {
         display: flex;
         justify-content: flex-start;
@@ -32,29 +37,37 @@
         .state {
           font-size: 28 * @rpx;
           color: @theme-color;
-          float: right;
+          position: absolute;
+          right: 20 * @rpx;
         }
       }
       .price {
+        margin-top: 10 * @rpx;
         font-size: 28 * @rpx;
         color: #eb4429;
       }
       .time {
+        margin-top: 10 * @rpx;
         font-size: 28 * @rpx;
         color: #434343;
       }
-      .operate-line {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        .button {
-          width: 150 * @rpx;
-          height: 50 * @rpx;
-          line-height: 50 * @rpx;
-          font-size: 28 * @rpx;
-          color: #434343;
-          border: 1 * @rpx solid #cecece;
-        }
+    }
+    .operate-line {
+      margin-top: 10 * @rpx;
+      margin-bottom: 20 * @rpx;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      .button {
+        width: 150 * @rpx;
+        height: 50 * @rpx;
+        line-height: 50 * @rpx;
+        font-size: 28 * @rpx;
+        color: #434343;
+        border: 1 * @rpx solid #cecece;
+        margin-right: 20 * @rpx;
+        text-align: center;
+        border-radius: 4 * @rpx;
       }
     }
   }

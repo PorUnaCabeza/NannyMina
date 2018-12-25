@@ -1,0 +1,36 @@
+<view class="evaluation-container">
+  <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
+  <view class="name">慧颜</view>
+  <view class="evaluation-list">
+    <view class="item">
+      普通话标准
+    </view>
+    <view class="item">
+      服务态度好
+    </view>
+    <view class="item">
+      服务态度好
+    </view>
+    <view class="item">
+      服务态度好
+    </view>
+    <view class="item">
+      服务态度好
+    </view>
+  </view>
+  <view class="area-title">
+    <view>整体评分</view>
+  </view>
+  <textarea class="evaluation-text-area"
+            value=""
+            maxlength="200"
+            bindinput="textAreaEvent"
+            placeholder="说说哪里好，鼓励我一下吧">
+  </textarea>
+  <view class="anonymous">
+    匿名
+  </view>
+</view>
+<view class="confirm">
+  提交评价
+</view>

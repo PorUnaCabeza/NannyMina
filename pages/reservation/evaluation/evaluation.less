@@ -1,0 +1,75 @@
+@import "../../../assets/less/base";
+
+page {
+  background-color: #ffffff;
+}
+
+.evaluation-container {
+  padding: 0 20 * @rpx;
+  align-items: center;
+  .head-image {
+    width: 160 * @rpx;
+    height: 160 * @rpx;
+    border-radius: 160 * @rpx;
+    margin: 40 * @rpx auto 0 auto;
+    display: block;
+  }
+  .name {
+    font-size: 32 * @rpx;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 16 * @rpx;
+    text-align: center;
+  }
+  .evaluation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .item {
+      margin: 15 * @rpx;
+      padding: 10 * @rpx 26 * @rpx;
+      border: 1 * @rpx solid #cecece;
+      text-align: center;
+      font-size: 28 * @rpx;
+      color: #434343;
+      border-radius: 4 * @rpx;
+    }
+  }
+  .area-title {
+    display: flex;
+    font-size: 28 * @rpx;
+    color: #434343;
+  }
+  .evaluation-text-area {
+    padding: 20 * @rpx;
+    margin-top: 16 * @rpx;
+    font-size: 24 * @rpx;
+    border-radius: 4 * @rpx;
+    color: #434343;
+    border: 1 * @rpx solid #cecece;
+    width: 710 * @rpx;
+    box-sizing: border-box;
+    .textarea-placeholder {
+      color: #d0d0d0;
+    }
+  }
+  .anonymous {
+    margin-top: 20 * @rpx;
+    font-size: 28 * @rpx;
+    color: #434343;
+    float: right;
+  }
+}
+
+.confirm {
+  bottom: 0;
+  position: fixed;
+  height: 90 * @rpx;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 32 * @rpx;
+  line-height: 90 * @rpx;
+  background-color: @theme-color;
+  color: #fff;
+}

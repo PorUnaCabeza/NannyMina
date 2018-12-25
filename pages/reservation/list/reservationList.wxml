@@ -1,18 +1,56 @@
 <view class="reservation-list">
   <view class="reservation-item">
-    <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
-    <view class="right-content">
-      <view class="name-line">
-        <view class="name">慧颜</view>
-        <view class="type">月嫂</view>
-        <view class="state">已预约</view>
+    <view class="content">
+      <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
+      <view class="right-content">
+        <view class="name-line">
+          <view class="name">慧颜</view>
+          <view class="type">月嫂</view>
+          <view class="state">已预约</view>
+        </view>
+        <view class="price">¥10000/月</view>
+        <view class="time">2018.01.01-2018.02.01</view>
       </view>
-      <view class="price">¥10000/月</view>
-      <view class="time">2018.01.01-2018.02.01</view>
-      <view class="operate-line">
-        <view class="button">再次预约</view>
-        <view class="button">评价</view>
+    </view>
+    <view class="operate-line">
+      <view class="button">再次预约</view>
+      <view class="button">评价</view>
+    </view>
+  </view>
+  <view class="reservation-item">
+    <view class="content">
+      <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
+      <view class="right-content">
+        <view class="name-line">
+          <view class="name">慧颜</view>
+          <view class="type">月嫂</view>
+          <view class="state">已预约</view>
+        </view>
+        <view class="price">¥10000/月</view>
+        <view class="time">2018.01.01-2018.02.01</view>
       </view>
+    </view>
+    <view class="operate-line">
+      <view class="button">再次预约</view>
+      <view class="button">评价</view>
+    </view>
+  </view>
+  <view class="reservation-item">
+    <view class="content">
+      <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
+      <view class="right-content">
+        <view class="name-line">
+          <view class="name">慧颜</view>
+          <view class="type">月嫂</view>
+          <view class="state">已预约</view>
+        </view>
+        <view class="price">¥10000/月</view>
+        <view class="time">2018.01.01-2018.02.01</view>
+      </view>
+    </view>
+    <view class="operate-line">
+      <view class="button">再次预约</view>
+      <view class="button">评价</view>
     </view>
   </view>
 </view>

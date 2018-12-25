@@ -1,7 +1,10 @@
 .reservation-list .reservation-item {
+  margin-top: 20rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+.reservation-list .reservation-item .content {
   display: flex;
   align-items: center;
-  margin-top: 20rpx;
   justify-content: flex-start;
 }
 .reservation-list .reservation-item .head-image {
@@ -11,10 +14,12 @@
   margin-left: 20rpx;
 }
 .reservation-list .reservation-item .right-content {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 20rpx;
+  width: 570rpx;
 }
 .reservation-list .reservation-item .right-content .name-line {
   display: flex;
@@ -32,26 +37,34 @@
 .reservation-list .reservation-item .right-content .name-line .state {
   font-size: 28rpx;
   color: #f4817c;
-  float: right;
+  position: absolute;
+  right: 20rpx;
 }
 .reservation-list .reservation-item .right-content .price {
+  margin-top: 10rpx;
   font-size: 28rpx;
   color: #eb4429;
 }
 .reservation-list .reservation-item .right-content .time {
+  margin-top: 10rpx;
   font-size: 28rpx;
   color: #434343;
 }
-.reservation-list .reservation-item .right-content .operate-line {
+.reservation-list .reservation-item .operate-line {
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
 }
-.reservation-list .reservation-item .right-content .operate-line .button {
+.reservation-list .reservation-item .operate-line .button {
   width: 150rpx;
   height: 50rpx;
   line-height: 50rpx;
   font-size: 28rpx;
   color: #434343;
   border: 1rpx solid #cecece;
+  margin-right: 20rpx;
+  text-align: center;
+  border-radius: 4rpx;
 }

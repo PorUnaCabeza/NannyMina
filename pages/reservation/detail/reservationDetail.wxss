@@ -1,1 +1,72 @@
-/* pages/reservation/detail/reservationDetail.wxss */
+page {
+  background-color: #f1f1f1;
+}
+.reservation-detail {
+  margin: 115rpx 30rpx 120rpx 30rpx;
+  background-color: #fff;
+  border-radius: 4rpx;
+  box-shadow: 2rpx 2rpx 1rpx rgba(158, 158, 158, 0.35);
+}
+.panel {
+  padding: 30rpx 24rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+.panel .line-info {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20rpx;
+}
+.panel .line-info .key {
+  font-size: 28rpx;
+  color: #808080;
+  width: 126rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.panel .line-info .value {
+  margin-left: 30rpx;
+  font-size: 28rpx;
+  color: #000000;
+}
+.aunt-info {
+  padding-top: 100rpx;
+  position: relative;
+}
+.aunt-info .head-image {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 160rpx;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate3d(-50%, -50%, 0);
+  box-shadow: 2rpx 2rpx 1rpx rgba(158, 158, 158, 0.35);
+}
+.apot-order-info {
+  padding-bottom: 160rpx;
+}
+.button-panel {
+  bottom: 0;
+  position: fixed;
+  height: 90rpx;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 32rpx;
+  line-height: 90rpx;
+}
+.button-panel .confirm {
+  background-color: #f4817c;
+  color: #fff;
+}
+.button-panel .done {
+  background-color: #fff;
+  color: #f4817c;
+  display: flex;
+}
+.button-panel .done .button {
+  flex: 1;
+}
+.button-panel .done .button:last-child {
+  border-left: 1rpx solid #f0f0f0;
+}

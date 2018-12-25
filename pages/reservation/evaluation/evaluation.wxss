@@ -1,0 +1,71 @@
+page {
+  background-color: #ffffff;
+}
+.evaluation-container {
+  padding: 0 20rpx;
+  align-items: center;
+}
+.evaluation-container .head-image {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 160rpx;
+  margin: 40rpx auto 0 auto;
+  display: block;
+}
+.evaluation-container .name {
+  font-size: 32rpx;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 16rpx;
+  text-align: center;
+}
+.evaluation-container .evaluation-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.evaluation-container .evaluation-list .item {
+  margin: 15rpx;
+  padding: 10rpx 26rpx;
+  border: 1rpx solid #cecece;
+  text-align: center;
+  font-size: 28rpx;
+  color: #434343;
+  border-radius: 4rpx;
+}
+.evaluation-container .area-title {
+  display: flex;
+  font-size: 28rpx;
+  color: #434343;
+}
+.evaluation-container .evaluation-text-area {
+  padding: 20rpx;
+  margin-top: 16rpx;
+  font-size: 24rpx;
+  border-radius: 4rpx;
+  color: #434343;
+  border: 1rpx solid #cecece;
+  width: 710rpx;
+  box-sizing: border-box;
+}
+.evaluation-container .evaluation-text-area .textarea-placeholder {
+  color: #d0d0d0;
+}
+.evaluation-container .anonymous {
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  color: #434343;
+  float: right;
+}
+.confirm {
+  bottom: 0;
+  position: fixed;
+  height: 90rpx;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 32rpx;
+  line-height: 90rpx;
+  background-color: #f4817c;
+  color: #fff;
+}

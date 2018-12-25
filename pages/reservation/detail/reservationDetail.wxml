@@ -1,2 +1,95 @@
-<!--pages/reservation/detail/reservationDetail.wxml-->
-<text>pages/reservation/detail/reservationDetail.wxml</text>
+<view class="reservation-detail">
+  <view class="aunt-info panel">
+    <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
+    <view class="line-info">
+      <view class="key">
+        <text>阿</text>
+        <text>姨:</text>
+      </view>
+      <view class="value">慧颜</view>
+    </view>
+    <view class="line-info">
+      <view class="key">
+        <text>职</text>
+        <text>位:</text>
+      </view>
+      <view class="value">月嫂</view>
+    </view>
+    <view class="line-info">
+      <view class="key">
+        <text>薪</text>
+        <text>资:</text>
+      </view>
+      <view class="value">￥10000/月</view>
+    </view>
+    <view class="line-info">
+      <view class="key">
+        <text>服</text>
+        <text>务</text>
+        <text>时</text>
+        <text>间:</text>
+      </view>
+      <view class="value">2018.01.01-2018.02.01</view>
+    </view>
+  </view>
+  <view class="apot-user-info panel">
+    <view class="line-info">
+      <view class="key">
+        <text>预</text>
+        <text>约</text>
+        <text>人:</text>
+      </view>
+      <view class="value">皮皮</view>
+    </view>
+    <view class="line-info">
+      <view class="key">
+        <text>手</text>
+        <text>机</text>
+        <text>号</text>
+        <text>码:</text>
+      </view>
+      <view class="value">18356767889</view>
+    </view>
+    <view class="line-info">
+      <view class="key">
+        <text>地</text>
+        <text>址:</text>
+      </view>
+      <view class="value">江苏省南京市秦淮区来凤街菱角市22号</view>
+    </view>
+    <view class="line-info">
+      <view class="key">
+        <text>备</text>
+        <text>注:</text>
+      </view>
+      <view class="value">急需</view>
+    </view>
+  </view>
+  <view class="apot-order-info panel">
+    <view class="line-info">
+      <view class="key">
+        <text>预</text>
+        <text>约</text>
+        <text>单</text>
+        <text>号:</text>
+      </view>
+      <view class="value">176276827462187586</view>
+    </view>
+    <view class="line-info">
+      <view class="key">
+        <text>下</text>
+        <text>单</text>
+        <text>时</text>
+        <text>间:</text>
+      </view>
+      <view class="value">2018.01.01 10:12:13</view>
+    </view>
+  </view>
+</view>
+<view class="button-panel">
+  <view class="confirm">服务完成</view>
+  <!--<view class="done">-->
+  <!--<view class="button">再次预约</view>-->
+  <!--<view class="button">评价</view>-->
+  <!--</view>-->
+</view>
