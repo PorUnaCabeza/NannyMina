@@ -20,130 +20,23 @@
     </view>
   </view>
   <view class="aunt-list">
-    <view class="aunt-item">
-      <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
+    <view class="aunt-item" wx:for="{{auntList}}" bindtap="toDetail" data-id="{{item.id}}">
+      <image class="head-image" src="{{item.headImg}}" mode="aspectFit"></image>
       <view class="aunt-detail">
         <view class="name-row">
-          <view class="name">慧颜</view>
+          <view class="name">{{item.name}}</view>
+          <stars class="stars" score="{{item.score}}"></stars>
         </view>
         <view class="age-row">
-          <view class="age">40岁</view>
-          <view class="city">安徽</view>
+          <view class="age">{{item.age}}岁</view>
+          <view class="city">{{item.hometown}}</view>
         </view>
         <view class="desc">
-          做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都
+          {{item.desc}}
         </view>
       </view>
       <view class="price">
-        ¥10000/月
-      </view>
-    </view>
-    <view class="aunt-item">
-      <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
-      <view class="aunt-detail">
-        <view class="name-row">
-          <view class="name">慧颜</view>
-        </view>
-        <view class="age-row">
-          <view class="age">40岁</view>
-          <view class="city">安徽</view>
-        </view>
-        <view class="desc">
-          做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都
-        </view>
-      </view>
-      <view class="price">
-        ¥10000/月
-      </view>
-    </view>
-    <view class="aunt-item">
-      <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
-      <view class="aunt-detail">
-        <view class="name-row">
-          <view class="name">慧颜</view>
-        </view>
-        <view class="age-row">
-          <view class="age">40岁</view>
-          <view class="city">安徽</view>
-        </view>
-        <view class="desc">
-          做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都
-        </view>
-      </view>
-      <view class="price">
-        ¥10000/月
-      </view>
-    </view>
-    <view class="aunt-item">
-      <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
-      <view class="aunt-detail">
-        <view class="name-row">
-          <view class="name">慧颜</view>
-        </view>
-        <view class="age-row">
-          <view class="age">40岁</view>
-          <view class="city">安徽</view>
-        </view>
-        <view class="desc">
-          做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都
-        </view>
-      </view>
-      <view class="price">
-        ¥10000/月
-      </view>
-    </view>
-    <view class="aunt-item">
-      <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
-      <view class="aunt-detail">
-        <view class="name-row">
-          <view class="name">慧颜</view>
-        </view>
-        <view class="age-row">
-          <view class="age">40岁</view>
-          <view class="city">安徽</view>
-        </view>
-        <view class="desc">
-          做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都
-        </view>
-      </view>
-      <view class="price">
-        ¥10000/月
-      </view>
-    </view>
-    <view class="aunt-item">
-      <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
-      <view class="aunt-detail">
-        <view class="name-row">
-          <view class="name">慧颜</view>
-        </view>
-        <view class="age-row">
-          <view class="age">40岁</view>
-          <view class="city">安徽</view>
-        </view>
-        <view class="desc">
-          做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都
-        </view>
-      </view>
-      <view class="price">
-        ¥10000/月
-      </view>
-    </view>
-    <view class="aunt-item">
-      <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
-      <view class="aunt-detail">
-        <view class="name-row">
-          <view class="name">慧颜</view>
-        </view>
-        <view class="age-row">
-          <view class="age">40岁</view>
-          <view class="city">安徽</view>
-        </view>
-        <view class="desc">
-          做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都
-        </view>
-      </view>
-      <view class="price">
-        ¥10000/月
+        ¥{{item.price}}/月
       </view>
     </view>
   </view>

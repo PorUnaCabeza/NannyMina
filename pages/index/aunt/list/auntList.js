@@ -1,11 +1,78 @@
-// pages/index/aunt/list/auntList.js
+import router from '../../../../router/router';
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    auntList: [
+      {
+        id: '1',
+        name: '慧颜',
+        score: 4,
+        headImg: 'https://unsplash.it/300/300/?random',
+        age: 40,
+        hometown: '安徽',
+        desc: '做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都',
+        price: 10000
+      },
+      {
+        id: '333',
+        name: '慧颜',
+        score: 3,
+        headImg: 'https://unsplash.it/300/300/?random',
+        age: 34,
+        hometown: '安徽',
+        desc: '做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都',
+        price: 10000
+      },
+      {
+        id: '2',
+        name: '慧颜',
+        score: 5,
+        headImg: 'https://unsplash.it/300/300/?random',
+        age: 53,
+        hometown: '安徽',
+        desc: '做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都',
+        price: 10000
+      },
+      {
+        id: '1132',
+        name: '慧颜',
+        score: 1,
+        headImg: 'https://unsplash.it/300/300/?random',
+        age: 67,
+        hometown: '安徽',
+        desc: '做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都',
+        price: 10000
+      },
+      {
+        id: '145',
+        name: '慧颜',
+        score: 2,
+        headImg: 'https://unsplash.it/300/300/?random',
+        age: 42,
+        hometown: '安徽',
+        desc: '做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都',
+        price: 10000
+      },
+      {
+        id: '134435',
+        name: '慧颜',
+        score: 2,
+        headImg: 'https://unsplash.it/300/300/?random',
+        age: 42,
+        hometown: '安徽',
+        desc: '做饭、做家务、辅助带孩子都做饭、做家务、辅助带孩子都',
+        price: 10000
+      }
+    ]
+  },
+  toDetail (e) {
+    let id = e.currentTarget.dataset.id;
+    router.navigate({
+      path: `pages/index/aunt/detail/auntDetail?id=${id}`
+    })
   },
 
   /**

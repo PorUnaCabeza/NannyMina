@@ -22,6 +22,11 @@ Page({
     if (!this.data.question || !this.data.phone)
       return;
     console.log('todo');
+    wx.showToast({
+      title: '成功',
+      icon: 'success',
+      duration: 2000
+    })
   },
 
   /**

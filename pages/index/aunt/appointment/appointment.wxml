@@ -1,12 +1,12 @@
 <view class="apot-container">
   <view class="aunt-info">
-    <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
+    <image class="head-image" src="{{headImg}}" mode="aspectFit"></image>
     <view class="detail">
       <view class="name-line">
-        <view class="name">慧颜</view>
-        <view class="type">月嫂</view>
+        <view class="name">{{aunt.name}}</view>
+        <view class="type">{{aunt.type}}</view>
       </view>
-      <view class="price">¥10000/月</view>
+      <view class="price">¥{{aunt.price}}/月</view>
     </view>
   </view>
   <view class="service-time">
@@ -37,12 +37,12 @@
   <view class="apot-input-panel">
     <view class="apot-info-item">
       <view class="item-name">预约人：</view>
-      <input class="item-value" placeholder="请输入预约人姓名"/>
+      <input class="item-value" value="{{apotUserName}}" bindinput="{{apotUserInput}}" placeholder="请输入预约人姓名"/>
       <view class="select-user" bindtap="showModal">选择已有</view>
     </view>
     <view class="apot-info-item">
       <view class="item-name">手机号码：</view>
-      <input class="item-value" placeholder="请输入手机号码"/>
+      <input class="item-value" value="{{phone}}" bindinput="{{phoneInput}}" placeholder="请输入手机号码"/>
     </view>
     <view class="apot-info-item">
       <view class="item-name">地区：</view>
@@ -57,13 +57,13 @@
     </view>
     <view class="apot-info-item">
       <view class="item-name">地址：</view>
-      <input class="item-value" placeholder="街道门牌信息"/>
+      <input class="item-value" value="{{address}}" bindinput="{{addressInput}}" placeholder="街道门牌信息"/>
     </view>
   </view>
   <view class="remark-panel">
     <view class="title">备注:</view>
     <textarea class="remark-text-area"
-              value="{{question}}"
+              value="{{remark}}"
               maxlength="200"
               bindinput="textAreaEvent"
               placeholder="200字内">

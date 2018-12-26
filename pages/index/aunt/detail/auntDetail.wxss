@@ -61,10 +61,6 @@ page {
 .aunt-detail-container .intro .star {
   margin-top: 10rpx;
 }
-.aunt-detail-container .intro .star i {
-  padding-right: 9rpx;
-  color: #eb4429;
-}
 .aunt-detail-container .intro .detail-panel {
   display: flex;
   justify-content: space-around;
@@ -177,7 +173,6 @@ page {
 }
 .aunt-detail-container .evaluation {
   padding: 0 30rpx;
-  margin-bottom: 120rpx;
 }
 .aunt-detail-container .evaluation .evaluation-list .evaluation-item {
   padding-bottom: 28rpx;
@@ -246,4 +241,7 @@ page {
   color: #fff;
   font-size: 32rpx;
   text-align: center;
+}
+.blank {
+  height: 120rpx;
 }

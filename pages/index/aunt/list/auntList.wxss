@@ -59,6 +59,16 @@ page {
   box-sizing: border-box;
   padding-left: 20rpx;
 }
+.aunt-list .aunt-item .aunt-detail .name-row {
+  display: flex;
+  align-items: center;
+}
+.aunt-list .aunt-item .aunt-detail .name-row .stars {
+  margin-left: 18rpx;
+}
+.aunt-list .aunt-item .aunt-detail .name-row .stars i {
+  font-size: 28rpx;
+}
 .aunt-list .aunt-item .aunt-detail .name-row .name {
   font-size: 32rpx;
   color: #000000;

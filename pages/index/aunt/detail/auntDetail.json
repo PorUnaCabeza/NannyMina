@@ -1,1 +1,6 @@
-{}
+{
+  "usingComponents": {
+    "stars": "../../../../components/stars/stars"
+  },
+  "navigationBarTitleText": "阿姨简历"
+}

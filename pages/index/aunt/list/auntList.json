@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "navigate": "../../../../components/navigate/navigate"
-  }
+    "navigate": "../../../../components/navigate/navigate",
+    "stars": "../../../../components/stars/stars"
+  },
+  "navigationBarTitleText": "家政服务"
 }

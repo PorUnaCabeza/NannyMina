@@ -1,0 +1,3 @@
+<view class="star-container">
+  <i class="iconfont {{item < score ? 'icon-xingxing': 'icon-kongxinxingxing'}}" wx:for="{{5}}"></i>
+</view>

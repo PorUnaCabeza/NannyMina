@@ -5,10 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
+    aunt: {
+      id: '123',
+      headImg: 'https://unsplash.it/300/300/?random',
+      name: '慧颜',
+      type: '月嫂',
+      price: '10000'
+    },
     region: [],
     date: '',
     time: '',
     customItem: '全部',
+    apotUserName: '',
+    phone: '',
+    address: '',
+    remark: '',
     showModal: false
   },
   bindRegionChange: function (e) {
@@ -38,12 +49,35 @@ Page({
       showModal: true
     });
   },
+  apotUserInput (e) {
+    this.setData({
+      apotUserName: e.detail.value
+    })
+  },
+  phoneInput (e) {
+    this.setData({
+      phone: e.detail.value
+    })
+  },
+
+  addressInput (e) {
+    this.setData({
+      address: e.detail.value
+    })
+  },
+
+  textAreaEvent (e) {
+    this.setData({
+      remark: e.detail.value
+    })
+  },
+
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(options.id);
   },
 
   /**
