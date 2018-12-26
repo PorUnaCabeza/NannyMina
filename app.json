@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/indivial/appointment/addAppointment/addAppointment",
+    "pages/indivial/appointment/mineAppointment/mineAppointment",
+    "pages/indivial/mine/mine",
     "pages/reservation/evaluation/evaluation",
     "pages/reservation/detail/reservationDetail",
     "pages/reservation/list/reservationList",
@@ -7,10 +10,7 @@
     "pages/index/aunt/list/auntList",
     "pages/index/aunt/detail/auntDetail",
     "pages/indivial/suggestion/suggestion",
-    "pages/indivial/question/question",
-    "pages/indivial/appointment/addAppointment/addAppointment",
-    "pages/indivial/appointment/mineAppointment/mineAppointment",
-    "pages/indivial/mine/mine"
+    "pages/indivial/question/question"
   ],
   "window": {
     "backgroundTextStyle": "light",

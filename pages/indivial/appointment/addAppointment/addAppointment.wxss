@@ -15,7 +15,7 @@ page {
 .apot-info-item .item-name {
   font-size: 28rpx;
   color: #000;
-  width: 136rpx;
+  width: 140rpx;
 }
 .apot-info-item .item-value {
   font-size: 28rpx;

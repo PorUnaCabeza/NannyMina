@@ -1,4 +1,7 @@
 {
     "backgroundColor": "#00ff00",
-    "navigationBarTitleText":"test"
+    "navigationBarTitleText":"我的",
+    "usingComponents": {
+        "navigate": "../../../components/navigate/navigate"
+    }
 }

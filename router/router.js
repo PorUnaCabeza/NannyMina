@@ -19,7 +19,7 @@ let CURRENT_ROUTE = "";
  * 封装后的 navigate 方法
  * @param {path：静态路径，params: {}}
  */
-const navigate = function(data = {
+const navigate = function (data = {
   path = "",
   params
 } = {}) {
@@ -30,7 +30,7 @@ const navigate = function(data = {
  * 封装后的 redirect 方法
  * @param {path：静态路径，params: {}}
  */
-const redirect = function(data = {
+const redirect = function (data = {
   path = "",
   params
 } = {}) {
@@ -41,7 +41,7 @@ const redirect = function(data = {
  * 封装后的 switchTab 方法
  * @param {path：静态路径，params: {}}
  */
-const switchTab = function(data = {
+const switchTab = function (data = {
   path = "",
   params
 } = {}) {
@@ -52,7 +52,7 @@ const switchTab = function(data = {
  * 封装后的 reLaunch 方法
  * @param {path：静态路径，params: {}}
  */
-const reLaunch = function(data = {
+const reLaunch = function (data = {
   path = "",
   params
 } = {}) {
@@ -62,7 +62,7 @@ const reLaunch = function(data = {
 /**
  * 设置上一页面的数据，并返回
  */
-const  navigateBack = function(data = {}) {
+const navigateBack = function (data = {}) {
   if (data) {
     const length = getCurrentPages().length;
     var prePage = getCurrentPages()[length - 2]
@@ -162,8 +162,8 @@ function joinParams(params, url) {
   }
 
   return finalUrl.endsWith("&") ?
-    finalUrl.slice(0, finalUrl.length - 1) :
-    finalUrl;
+      finalUrl.slice(0, finalUrl.length - 1) :
+      finalUrl;
 }
 
 

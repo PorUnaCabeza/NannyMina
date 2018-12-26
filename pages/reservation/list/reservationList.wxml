@@ -54,3 +54,4 @@
     </view>
   </view>
 </view>
+<navigate activeIndex="1"></navigate>

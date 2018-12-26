@@ -1,0 +1,9 @@
+<view class="navigate-bar">
+  <view class="nav-item {{index==activeIndex?'active':''}}"
+        data-index="{{index}}"
+        bindtap="switch"
+        wx:for="{{list}}">
+    <i class="iconfont {{item.icon}}"></i>
+    <view class="item-name">{{item.name}}</view>
+  </view>
+</view>

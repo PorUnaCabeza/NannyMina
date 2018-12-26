@@ -40,6 +40,7 @@ page {
 }
 .aunt-list {
   margin-top: 80rpx;
+  margin-bottom: 100rpx;
 }
 .aunt-list .aunt-item {
   display: flex;

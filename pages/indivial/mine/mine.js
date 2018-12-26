@@ -1,13 +1,29 @@
-// pages/mine/mine.js
+import router from '../../../router/router.js';
 Page({
 
   /**
    * 页面的初始数据
    */
-  data: {
+  data: {},
 
+  logout () {
+    console.log('退出');
   },
-
+  toMineApot () {
+    router.navigate({
+      path: 'pages/indivial/appointment/mineAppointment/mineAppointment'
+    });
+  },
+  toQA () {
+    router.navigate({
+      path: 'pages/indivial/question/question'
+    });
+  },
+  toSuggestion () {
+    router.navigate({
+      path: 'pages/indivial/suggestion/suggestion'
+    });
+  },
   /**
    * 生命周期函数--监听页面加载
    */

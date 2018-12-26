@@ -9,18 +9,18 @@
         {{item.address}}
       </view>
       <view class="operate-line">
-        <view class="opt-item">
+        <view class="opt-item" bindtap="toDetail" data-id="{{item.id}}">
           <i class="iconfont icon-yuanjiaojuxingkaobei"></i>
           <text>编辑</text>
         </view>
-        <view class="opt-item">
+        <view class="opt-item" bindtap="delete" data-id="{{item.id}}">
           <i class="iconfont icon-yuanjiaojuxing"></i>
           <text>删除</text>
         </view>
       </view>
     </view>
   </view>
-  <view class="add-apot">
+  <view class="add-apot" bindtap="addApot">
     新增预约信息
   </view>
 </view>

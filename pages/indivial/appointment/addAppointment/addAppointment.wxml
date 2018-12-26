@@ -2,11 +2,11 @@
 <view class="add-appointment">
   <view class="apot-info-item">
     <view class="item-name">预约人：</view>
-    <input class="item-value" placeholder="请输入预约人姓名"/>
+    <input class="item-value" value="{{name}}" bindinput="nameInput" placeholder="请输入预约人姓名"/>
   </view>
   <view class="apot-info-item">
     <view class="item-name">手机号码：</view>
-    <input class="item-value" placeholder="请输入手机号码"/>
+    <input class="item-value" value="{{phone}}" bindinput="phoneInput" placeholder="请输入手机号码"/>
   </view>
   <view class="apot-info-item">
     <view class="item-name">地区：</view>
@@ -21,7 +21,7 @@
   </view>
   <view class="apot-info-item">
     <view class="item-name">地址：</view>
-    <input class="item-value" placeholder="街道门牌信息"/>
+    <input class="item-value" value="{{address}}" bindinput="addressInput" placeholder="街道门牌信息"/>
   </view>
-  <view class="confirm">确定</view>
+  <view class="confirm" bindtap="confirm">确定</view>
 </view>

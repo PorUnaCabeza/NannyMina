@@ -148,3 +148,4 @@
     </view>
   </view>
 </view>
+<navigate activeIndex="0"></navigate>

@@ -1,4 +1,4 @@
-// pages/indivial/appointment/mineAppointment/mineAppointment.js
+import router from '../../../../router/router';
 Page({
 
   /**
@@ -7,21 +7,46 @@ Page({
   data: {
     list: [
       {
+        id: '1',
         name: '王二小',
         tel: '13656873290',
         address: '江苏省南京市秦淮区来凤街菱角市22号'
       },
       {
+        id: '2',
         name: '王二小',
         tel: '13656873290',
         address: '江苏省南京市秦淮区来凤街菱角市22号'
       },
       {
+        id: '3',
         name: '王二小',
         tel: '13656873290',
         address: '江苏省南京市秦淮区来凤街菱角市22号'
       }
     ]
+  },
+  toDetail (e) {
+    let id = e.currentTarget.dataset.id;
+    console.log(id);
+    router.navigate({
+      path: `pages/indivial/appointment/addAppointment/addAppointment?type=edit&id=${id}`
+    });
+  },
+
+  delete (e) {
+    let id = e.currentTarget.dataset.id;
+    wx.showToast({
+      title: `删除id为${id}`,
+      icon: 'success',
+      duration: 2000
+    })
+  },
+
+  addApot () {
+    router.navigate({
+      path: `pages/indivial/appointment/addAppointment/addAppointment?type=add`
+    });
   },
 
   /**
