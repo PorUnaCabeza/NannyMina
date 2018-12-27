@@ -39,10 +39,18 @@ Page({
       time: e.detail.value
     })
   },
-  modalConfirm () {
+  modalClose () {
     this.setData({
       showModal: false
     });
+  },
+  modalConfirm (e) {
+    this.setData({
+      apotUserName: e.detail.name,
+      phone: e.detail.phone,
+      address: e.detail.address
+    });
+    this.modalClose();
   },
   showModal () {
     this.setData({
@@ -69,6 +77,14 @@ Page({
   textAreaEvent (e) {
     this.setData({
       remark: e.detail.value
+    })
+  },
+
+  apply (e) {
+    wx.showToast({
+      title: '成功',
+      icon: 'success',
+      duration: 2000
     })
   },
 

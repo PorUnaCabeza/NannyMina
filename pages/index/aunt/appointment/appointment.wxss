@@ -79,6 +79,7 @@ page {
 }
 .apot-input-panel .apot-info-item .item-value {
   font-size: 28rpx;
+  width: 550rpx;
 }
 .apot-input-panel .apot-info-item .item-value .input-placeholder {
   color: #d7d7d7;
@@ -99,6 +100,7 @@ page {
   font-size: 28rpx;
   position: absolute;
   right: 20rpx;
+  z-index: 9;
 }
 .remark-panel {
   margin-top: 20rpx;
@@ -127,7 +129,9 @@ page {
   font-size: 24rpx;
   color: #808080;
   line-height: 36rpx;
-  margin-bottom: 100rpx;
+}
+.blank {
+  height: 110rpx;
 }
 .apply {
   position: fixed;

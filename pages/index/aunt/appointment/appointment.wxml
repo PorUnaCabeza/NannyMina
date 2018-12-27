@@ -75,8 +75,10 @@
       请您确认预约时间与地址，仔细核对手机号并保持电话畅通
     </view>
   </view>
-  <view class="apply">
+  <view class="blank"></view>
+  <view class="apply" bindtap="apply">
     提交预约
   </view>
-  <modal wx:if="{{showModal}}" bindconfirm="modalConfirm"></modal>
+  <modal wx:if="{{showModal}}" bindconfirm="modalConfirm"
+         bindclose="modalClose"></modal>
 </view>

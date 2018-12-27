@@ -1,46 +1,25 @@
 <view class="apot-modal">
   <view class="list">
-    <view class="item no-select">
-      <i class="iconfont icon-weixuanze"></i>
+    <view class="item no-select" bindtap="noSelect">
+      <i class="iconfont {{selectedId==-1 ? 'active icon-yixuanze' : 'icon-weixuanze'}}"></i>
       <view class="content">
         <view class="name-line">
           <view class="name">不选择</view>
         </view>
       </view>
     </view>
-    <view class="item">
-      <i class="iconfont icon-weixuanze"></i>
+    <view class="item"
+          wx:for="{{apotUserList}}"
+          bindtap="select"
+          data-id="{{item.id}}">
+      <i class="iconfont {{item.id == selectedId ? 'active icon-yixuanze' : 'icon-weixuanze'}}"></i>
       <view class="content">
         <view class="name-line">
-          <view class="name">王二小</view>
-          <view class="phone">13656873290</view>
+          <view class="name">{{item.name}}</view>
+          <view class="phone">{{item.phone}}</view>
         </view>
         <view class="address">
-          江苏省南京市秦淮区来凤街菱角市22号
-        </view>
-      </view>
-    </view>
-    <view class="item">
-      <i class="iconfont icon-weixuanze"></i>
-      <view class="content">
-        <view class="name-line">
-          <view class="name">王二小</view>
-          <view class="phone">13656873290</view>
-        </view>
-        <view class="address">
-          江苏省南京市秦淮区来凤街菱角市22号
-        </view>
-      </view>
-    </view>
-    <view class="item">
-      <i class="iconfont icon-weixuanze"></i>
-      <view class="content">
-        <view class="name-line">
-          <view class="name">王二小</view>
-          <view class="phone">13656873290</view>
-        </view>
-        <view class="address">
-          江苏省南京市秦淮区来凤街菱角市22号
+          {{item.address}}
         </view>
       </view>
     </view>
