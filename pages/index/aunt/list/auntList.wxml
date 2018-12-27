@@ -41,4 +41,5 @@
     </view>
   </view>
 </view>
+<view class="blank"></view>
 <navigate activeIndex="0"></navigate>

@@ -20,6 +20,7 @@
       </view>
     </view>
   </view>
+  <view class="blank"></view>
   <view class="add-apot" bindtap="addApot">
     新增预约信息
   </view>

@@ -1,4 +1,3 @@
-// pages/index/aunt/appointment/modal/modal.js
 Component({
   /**
    * 组件的属性列表
@@ -35,7 +34,7 @@ Component({
         address: '江苏省南京市秦淮区来凤街菱角市22号'
       }
     ],
-    selectedId: ''
+    selectedId: '-1'
   },
 
   /**

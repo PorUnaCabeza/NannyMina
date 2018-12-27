@@ -40,7 +40,6 @@ page {
 }
 .aunt-list {
   margin-top: 80rpx;
-  margin-bottom: 100rpx;
 }
 .aunt-list .aunt-item {
   display: flex;
@@ -93,4 +92,7 @@ page {
   padding-left: 10rpx;
   font-size: 28rpx;
   color: #eb4429;
+}
+.blank {
+  height: 110rpx;
 }

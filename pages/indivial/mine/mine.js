@@ -8,6 +8,11 @@ Page({
 
   logout () {
     console.log('退出');
+    wx.showToast({
+      title: '退出',
+      icon: 'success',
+      duration: 500
+    })
   },
   toMineApot () {
     router.navigate({

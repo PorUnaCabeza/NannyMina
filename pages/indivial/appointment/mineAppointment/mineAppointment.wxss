@@ -36,6 +36,9 @@
 .apot-list .apot-item .operate-line .opt-item:first-child {
   margin-right: 40rpx;
 }
+.blank {
+  height: 110rpx;
+}
 .add-apot {
   position: fixed;
   left: 0;
