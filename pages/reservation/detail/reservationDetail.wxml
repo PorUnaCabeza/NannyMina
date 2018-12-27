@@ -1,3 +1,4 @@
+<!--此页面使用view包裹一个个的汉字，flex布局来对齐不同长度的汉字-->
 <view class="reservation-detail">
   <view class="aunt-info panel">
     <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
@@ -6,21 +7,21 @@
         <text>阿</text>
         <text>姨:</text>
       </view>
-      <view class="value">慧颜</view>
+      <view class="value">{{name}}</view>
     </view>
     <view class="line-info">
       <view class="key">
         <text>职</text>
         <text>位:</text>
       </view>
-      <view class="value">月嫂</view>
+      <view class="value">{{type}}</view>
     </view>
     <view class="line-info">
       <view class="key">
         <text>薪</text>
         <text>资:</text>
       </view>
-      <view class="value">￥10000/月</view>
+      <view class="value">￥{{price}}/月</view>
     </view>
     <view class="line-info">
       <view class="key">
@@ -29,7 +30,7 @@
         <text>时</text>
         <text>间:</text>
       </view>
-      <view class="value">2018.01.01-2018.02.01</view>
+      <view class="value">{{time}}</view>
     </view>
   </view>
   <view class="apot-user-info panel">
@@ -39,7 +40,7 @@
         <text>约</text>
         <text>人:</text>
       </view>
-      <view class="value">皮皮</view>
+      <view class="value">{{apotUserName}}</view>
     </view>
     <view class="line-info">
       <view class="key">
@@ -48,21 +49,21 @@
         <text>号</text>
         <text>码:</text>
       </view>
-      <view class="value">18356767889</view>
+      <view class="value">{{apotUserPhone}}</view>
     </view>
     <view class="line-info">
       <view class="key">
         <text>地</text>
         <text>址:</text>
       </view>
-      <view class="value">江苏省南京市秦淮区来凤街菱角市22号</view>
+      <view class="value">{{apotUserAddress}}</view>
     </view>
     <view class="line-info">
       <view class="key">
         <text>备</text>
         <text>注:</text>
       </view>
-      <view class="value">急需</view>
+      <view class="value">{{remark}}</view>
     </view>
   </view>
   <view class="apot-order-info panel">
@@ -73,7 +74,7 @@
         <text>单</text>
         <text>号:</text>
       </view>
-      <view class="value">176276827462187586</view>
+      <view class="value">{{orderId}}</view>
     </view>
     <view class="line-info">
       <view class="key">
@@ -82,14 +83,17 @@
         <text>时</text>
         <text>间:</text>
       </view>
-      <view class="value">2018.01.01 10:12:13</view>
+      <view class="value">{{orderTime}}</view>
     </view>
   </view>
 </view>
+<view class="blank"></view>
 <view class="button-panel">
-  <view class="confirm">服务完成</view>
-  <!--<view class="done">-->
-  <!--<view class="button">再次预约</view>-->
-  <!--<view class="button">评价</view>-->
-  <!--</view>-->
+  <view class="confirm" bindtap="complete" wx:if="{{!complete}}">
+    服务完成
+  </view>
+  <view class="done" wx:if="{{complete}}">
+    <view class="button" bindtap="again">再次预约</view>
+    <view class="button" bindtap="toEvaluation">评价</view>
+  </view>
 </view>

@@ -5,7 +5,64 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    headImg: 'https://unsplash.it/300/300/?random',
+    tagList: [
+      {
+        id: '1',
+        active: false,
+        text: '普通话标准'
+      },
+      {
+        id: '2',
+        active: false,
+        text: '服务态度好'
+      },
+      {
+        id: '3',
+        active: false,
+        text: '服务态度好'
+      },
+      {
+        id: '4',
+        active: false,
+        text: '服务态度好'
+      },
+      {
+        id: '5',
+        active: false,
+        text: '服务态度好'
+      }
+    ],
+    score: 4,
+    evaluation: '',
+    isAnonymous: false
+  },
+  select (e) {
+    let id = e.currentTarget.dataset.id;
+    let index = this.data.tagList.findIndex(item => item.id == id);
+    let value = !this.data.tagList[index].active;
+    console.log(id, index);
+    let active = 'tagList[' + index + '].active';
+    this.setData({
+      [active]: value
+    })
+  },
+  textAreaEvent (e) {
+    this.setData({
+      evaluation: e.detail.value
+    })
+  },
+  changeAnonymous () {
+    this.setData({
+      isAnonymous: !this.data.isAnonymous
+    })
+  },
+  confirm () {
+    wx.showToast({
+      title: '成功',
+      icon: 'success',
+      duration: 2000
+    })
   },
 
   /**

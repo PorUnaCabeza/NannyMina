@@ -38,7 +38,7 @@ Component({
       let index = e.currentTarget.dataset.index;
       if (index == this.data.activeIndex)
         return;
-      router.navigate({
+      router.redirect({
         path: this.data.list[index].path
       });
     }

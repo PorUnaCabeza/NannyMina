@@ -33,12 +33,19 @@ page {
       font-size: 28 * @rpx;
       color: #434343;
       border-radius: 4 * @rpx;
+      &.active {
+        color: @theme-color;
+        border: 1 * @rpx solid @theme-color;
+      }
     }
   }
   .area-title {
     display: flex;
     font-size: 28 * @rpx;
     color: #434343;
+    .stars {
+      margin-left: 12 * @rpx;
+    }
   }
   .evaluation-text-area {
     padding: 20 * @rpx;
@@ -58,6 +65,12 @@ page {
     font-size: 28 * @rpx;
     color: #434343;
     float: right;
+    i {
+      font-size: 28 * @rpx;
+      &.icon-yixuanze {
+        color: @theme-color;
+      }
+    }
   }
 }
 

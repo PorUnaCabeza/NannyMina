@@ -33,10 +33,17 @@ page {
   color: #434343;
   border-radius: 4rpx;
 }
+.evaluation-container .evaluation-list .item.active {
+  color: #f4817c;
+  border: 1rpx solid #f4817c;
+}
 .evaluation-container .area-title {
   display: flex;
   font-size: 28rpx;
   color: #434343;
+}
+.evaluation-container .area-title .stars {
+  margin-left: 12rpx;
 }
 .evaluation-container .evaluation-text-area {
   padding: 20rpx;
@@ -56,6 +63,12 @@ page {
   font-size: 28rpx;
   color: #434343;
   float: right;
+}
+.evaluation-container .anonymous i {
+  font-size: 28rpx;
+}
+.evaluation-container .anonymous i.icon-yixuanze {
+  color: #f4817c;
 }
 .confirm {
   bottom: 0;

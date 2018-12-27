@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "navigate": "../../../../components/navigate/navigate"
-  }
+  },
+  "navigationBarTitleText": "我的预约"
 }

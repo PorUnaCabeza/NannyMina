@@ -2,7 +2,7 @@ page {
   background-color: #f1f1f1;
 }
 .reservation-detail {
-  margin: 115rpx 30rpx 120rpx 30rpx;
+  margin: 115rpx 30rpx 0 30rpx;
   background-color: #fff;
   border-radius: 4rpx;
   box-shadow: 2rpx 2rpx 1rpx rgba(158, 158, 158, 0.35);
@@ -69,4 +69,7 @@ page {
 }
 .button-panel .done .button:last-child {
   border-left: 1rpx solid #f0f0f0;
+}
+.blank {
+  height: 120rpx;
 }

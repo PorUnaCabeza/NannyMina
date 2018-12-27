@@ -1,36 +1,29 @@
 <view class="evaluation-container">
-  <image class="head-image" src="https://unsplash.it/300/300/?random" mode="aspectFit"></image>
+  <image class="head-image" src="{{headImg}}" mode="aspectFit"></image>
   <view class="name">慧颜</view>
   <view class="evaluation-list">
-    <view class="item">
-      普通话标准
-    </view>
-    <view class="item">
-      服务态度好
-    </view>
-    <view class="item">
-      服务态度好
-    </view>
-    <view class="item">
-      服务态度好
-    </view>
-    <view class="item">
-      服务态度好
+    <view class="item {{item.active ? 'active' : ''}}"
+          wx:for="{{tagList}}"
+          data-id="{{item.id}}"
+          bindtap="select">
+      {{item.text}}
     </view>
   </view>
   <view class="area-title">
     <view>整体评分</view>
+    <stars class="stars" score="5"></stars>
   </view>
   <textarea class="evaluation-text-area"
-            value=""
+            value="{{evaluation}}"
             maxlength="200"
             bindinput="textAreaEvent"
             placeholder="说说哪里好，鼓励我一下吧">
   </textarea>
-  <view class="anonymous">
+  <view class="anonymous" bindtap="changeAnonymous">
+    <i class="iconfont {{isAnonymous?'icon-yixuanze':'icon-weixuanze'}}"></i>
     匿名
   </view>
 </view>
-<view class="confirm">
+<view class="confirm" bindtap="confirm">
   提交评价
 </view>
